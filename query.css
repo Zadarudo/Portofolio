@@ -1,0 +1,104 @@
+@media screen and (min-width: 1500px) {
+    .left {
+        width: 30%;
+
+    }
+
+    .right {
+        width: 70%;
+    }
+
+    .about, .about h3 {
+        font-size: 38px;
+    }
+
+    .schools {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .right {
+        margin: none;
+        width: 68%;
+    }
+    .left {
+        width: 32%;
+    }
+}
+
+@media (max-width: 990px) {
+    .schoolbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .d {
+        /* margin-left: 80px; */
+    }
+
+    .schoolimg h3, .schoolimg p {
+        font-size: 40px;
+    }
+
+    .f img {
+        margin-bottom: 0;
+        /* margin-left: 120px; */
+    }
+}
+
+@media (max-width: 750px) {
+    
+    .content {
+        flex-direction: column;
+        gap: 290px;
+        align-items: center;
+    }
+    .left img  {
+        width: fit-content;
+        overflow: hidden;
+    }
+    .about h4 {
+        width: 100%;
+    }
+
+    header nav {
+        display: none;
+    }
+    body {
+        width: 100%;
+    }
+    .projectbox img {
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        box-shadow: -1px 1px 30px 5px inset black;
+
+
+    }
+    .me_image {
+        width: 350px;
+        /* display: flex; */
+        align-items: start;
+        overflow: visible;
+    }
+    .me_image img{
+        width: 100%;
+        justify-self: center;
+
+    }
+    .about {
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 400px) {
+    .me_image {
+        align-self: center;
+    }
+}
