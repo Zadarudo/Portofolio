@@ -337,8 +337,24 @@ p {
 
 .projectbox img {
   width: 100%;
+  margin-bottom: 28px;
 }
 
+.projectbox a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  background-color: gray;
+  padding: 10px;
+  transition: all 0.2s linear;
+}
+
+.projectbox a:hover {
+  color: black;
+  background-color: white;
+  transform: translateY(-8px);
+}
 
 .contact {
   margin-top: 360px;
